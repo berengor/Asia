@@ -10,11 +10,11 @@
 
 <!--FIXME section внутри body, соответственно тут должен быть отступ-->
 <section class="wrapper">
-  <header class="mb-1">
+  <header>
     <!--FIXME если на странице явно нет текста обозначеного как h1, оборачивай в него логотип компании. h1 должен быть на странице полюбом 1-->
     <!--Обернул-->
     <h1><img class="logo" src="img/logo.png" alt="Asian-Holidays"></h1>
-    <div class="mb-2">
+    <div class="aside">
       <h3>Contact Us</h3>
       <!--FIXME что за любовь в параграфам ???-->
       <!--Убрал-->
@@ -28,40 +28,38 @@
     <figure>
       <!--FIXME p - это параграф, зачем ты его суешь везде ?? Темболее что это не блочный елемент-->
       <div class="img"><a href="#"><img src="img/india.png" alt="India"></a></div>
-      <figcaption class="text">India</figcaption>
+      <div class="text"><figcaption>India</figcaption></div>
       <!--FIXME figcaption - это елемент фигуры, по отдельности его не юзают http://htmlbook.ru/html/figcaption-->
       <!--обрати внимание на ссылку выше и переделай все блоки по образцу, только без <p>, то рагуль какой-то писал-->
     </figure>
-    <div>
+    <figure>
       <div class="img"><a href="#"><img src="img/nepal.png" alt="Nepal"></a></div>
-      <figcaption class="text">Nepal</figcaption>
-    </div>
+      <div class="text"><figcaption>Nepal</figcaption></div>
+    </figure>
     <figure>
       <div class="img"><a href="#"><img src="img/tibet.png" alt="Tibet"></a></div>
-      <figcaption class="text">Tibet</figcaption>
+      <div class="text"><figcaption>Tibet</figcaption></div>
     </figure>
     <figure>
       <div class="img"><a href="#"><img src="img/bhutan.png" alt="Bhutan"></a></div>
-      <figcaption class="text">Bhutan</figcaption>
+      <div class="text"><figcaption>Bhutan</figcaption></div>
     </figure>
     <figure>
       <div class="img"><a href="#"><img src="img/sri-lanka.png" alt="Sri Lanka"></a></div>
-      <figcaption class="text">Sri Lanka</figcaption>
+      <div class="text"><figcaption>Sri Lanka</figcaption></div>
     </figure>
     <figure>
       <div class="img"><a href="#"><img src="img/maldives.png" alt="Maldives"></a></div>
-      <figcaption class="text">Maldives</figcaption>
+      <div class="text"><figcaption>Maldives</figcaption></div>
     </figure>
   </main>
 
   <footer class="footer">
-    <div>
       <!--FIXME опять параграф. Используй параграф только там где нужен отступ в начале текста.-->
       <!--Для стилизации текста можно использовать тег span-->
       <span>
         Copyright (c) asia-holidays.com 2010
       </span>
-    </div>
   </footer>
 </section>
 
